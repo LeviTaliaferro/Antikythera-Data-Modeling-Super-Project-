@@ -1,0 +1,17 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset contains information about built and standing archaeological structures across the full extent of the Greek island of Antikythera, collected by the Antikythera Survey Project in 2005-7 (www.ucl.ac.uk/asp). The data is in comma-delimited format (.csv) and an accompanying .csvt file offers simple field type designators for use with GDAL/OGR (see http://www.gdal.org/ogr/drv_csv.html). It is provided under a Creative Commons CC0 1.0 license (http://creativecommons.org/publicdomain/zero/1.0/). For further information on individual data fields, please refer to the attribute field dictionary below:
+
+"SID" - a unique identifier for each structure
+
+"Xsugg" - a suggested easting in the UTM WGS84 Zone 34N coordinate system (see also LocErr)
+
+"Ysugg" - a suggested northing in the UTM WGS84 Zone 34N coordinate system (see also LocErr)
+
+"Type" - the general type of structure
+
+"Comments" - further details on this specific structure
+
+"LocErr" - a very rough estimate of the positional uncertainty of the location offered by Xsugg and Ysugg (typically +-10 or +-100m)

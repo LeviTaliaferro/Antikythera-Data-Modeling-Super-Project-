@@ -1,0 +1,17 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset contains information about a series of ca.175 petrographic thin sections made from pottery collected by the Antikythera Survey Project in 2005-7 (www.ucl.ac.uk/asp). The data is in comma-delimited format (.csv) and an accompanying .csvt file offers simple field type designators for use with GDAL/OGR (see http://www.gdal.org/ogr/drv_csv.html). It is provided under a Creative Commons CC0 1.0 license (http://creativecommons.org/publicdomain/zero/1.0/). For further information on individual data fields, please refer to the attribute field dictionary below:
+
+"TSID" - a unique identifier for the thin section composed (sometimes also referred to with a ASP prefix in ASP publications).
+
+"UID" - a unique identifier for the sherd, composed from either unit-walker-pass-section-sherd (for those sherds collected during stage-one tractwalking) or square-section-sherd (for those sherds collected during stage-two gridded collections)
+
+"Refiring" -  The Munsell colour of the sample after refiring at 1000¡C in oxidising conditions.
+
+"FabricType" -  a description of the fabric group to which the sherd belongs
+
+"Coarseness" - a description of the coarseness of the fabric 
+
+"OptActivity" - an assessment of groundmass optical activity

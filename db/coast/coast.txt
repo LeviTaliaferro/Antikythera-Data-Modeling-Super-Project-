@@ -1,0 +1,5 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset is a set of vector polygons containing the coastal outline of the Greek island of Antikythera and collected by the Antikythera Survey Project in 2005-7 (www.ucl.ac.uk/asp). The dataset is in shapefile format, with a full set of metadata in an accompanying .xml file, and briefer metadata providing in this .txt file. It is provided under a Creative Commons CC0 1.0 license (http://creativecommons.org/publicdomain/zero/1.0/).

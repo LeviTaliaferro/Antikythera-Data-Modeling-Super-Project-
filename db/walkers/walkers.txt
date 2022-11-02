@@ -1,0 +1,19 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset contains information collected by individual surveyors as part of stage-one (tractwalking) survey across the full extent of the Greek island of Antikythera (by the Antikythera Survey Project in 2005-7; www.ucl.ac.uk/asp). The data is in comma-delimited format (.csv) and an accompanying .csvt file offers simple field type designators for use with GDAL/OGR (see http://www.gdal.org/ogr/drv_csv.html). It is provided under a Creative Commons CC0 1.0 license (http://creativecommons.org/publicdomain/zero/1.0/). For further information on individual data fields, please refer to the attribute field dictionary below:
+
+"Tract" - a unique identifier for the stage-one survey unit involved (each surveyor usually covered such a unit as part of a team.
+
+"Walker" - the ASP team member id of the recorder
+
+"Pass" - the pass number of the tract involved (some tracts could involve the same surveyor making more than one pass if team numbers were insufficient)
+
+"Distance" - the distance in metres walked by the surveyor in this tract (an estimate based on pacing, modified by the team's handheld GPS)
+
+"Sherds" - a total count of potsherds observed within a ca. 2m corridor along this surveyors walking line.
+
+"Other" - a total count of other artefacts observed within a ca. 2m corridor along this surveyors walking line.
+
+"Bags" - a count of the number of artefact bags taken back from the field.

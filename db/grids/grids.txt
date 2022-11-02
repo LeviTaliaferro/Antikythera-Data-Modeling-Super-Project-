@@ -1,0 +1,19 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset is a set of vector polygons and an accompanying attribute table. It contains information about the location of the surface collection and recording units adopted by the Antikythera Survey Project in 2005-7 (www.ucl.ac.uk/asp) as part of stage-two archaeological survey of the Greek island of Antikythera. The dataset is in shapefile format, with a full set of metadata in an accompanying .xml file and briefer metadata provided in this .txt file. It is provided under a Creative Commons CC0 1.0 license (http://creativecommons.org/publicdomain/zero/1.0/). For brief information on individual data fields in the dataset attribute table, please refer to the attribute field dictionary below:
+
+"Grid" - id for wider grid
+
+"Square" - id for square
+
+"LandUse" - brief suggestion of land use in square (sometimes missing)
+
+"Walker" - the ASP team member id of the surveyor
+
+"VacVis" - the surveyor's visual assessment of ground surface visibility (as % visible) in the 5 sq.m complete collection (vaccuum) circle
+
+"SquareVis" - the surveyor's visual assessment of ground surface visibility (as % visible) in the entire square
+
+"Notes" - any further comments

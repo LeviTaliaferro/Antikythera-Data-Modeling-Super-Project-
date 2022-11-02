@@ -1,0 +1,45 @@
+Antikythera Survey Project (ASP)
+Last Updated 28.11.11
+Andrew Bevan
+
+The accompanying dataset contains information about knapped stone artefacts collected across the full extent of the Greek island of Antikythera by the Antikythera Survey Project in 2005-7 (www.ucl.ac.uk/asp). The data is in comma-delimited format (.csv) and an accompanying .csvt file offers simple field type designators for use with GDAL/OGR (see http://www.gdal.org/ogr/drv_csv.html). It is provided under a Creative Commons CC0 1.0 license (http://creativecommons.org/publicdomain/zero/1.0/). For further information on individual data fields, please refer to the attribute field dictionary below:
+
+"UID" - a unique identifier for the fragment, composed from either unit-walker-pass-section-fragment (for those fragments collected during stage-one tractwalking) or square-section-fragment (for those fragments collected during stage-two gridded collections)
+
+"Xsugg" -  a suggested easting in the UTM WGS84 Zone 34N coordinate system. This has been randomised within the walker section or grid square involved and should be thought of has having a relative accuracy of ca.10m.
+
+"Ysugg" - a suggested northing in the UTM WGS84 Zone 34N coordinate system. This has been randomised within the walker section or grid square involved and should be thought of has having a relative accuracy of ca.10m.
+
+"Type" - refers to whether the fragment was recovered as part of stage-one tractwalking ('tract'), stage-two gridded collection ('grid') or as an opportunistic grab ('grab') at some other stage of the survey.
+
+"Unit" - refers to either the tract number or the square id for the collection unit
+
+"Walker" - the ASP team member id of the person who collected the fragment
+
+"PassGrid" - the pass number (of the tract) or the grid number (of the set of collection squares) during which the fragment was collected
+
+"Section" - the section of the survey unit during which the fragment was collected, either the 10m segment (5,15,25,35, etc.) of the walker line during tractwalking, the vacuum circle ('V') stage of gridded collection or the square grab stage ('S') of gridded collection.
+
+"FragNo" - the number of the fragment (unique)
+
+"Material" - a basic description of the stone ('o'= obsidian, 'wc'= white chert, 'rc'= red-brown chert, 'Ba' = basalt, 'Wq'= white quartz, 'gc' = green chert)
+
+"MatSimple" - a simpler description of the stone as either chert ('c') or obsidian ('o')
+
+"PrimBlank" - a description of the primary blank for this artefact
+
+"SecBlank" - a description of the secondary blank for this artefact
+
+"Length" - length of the artefact in centimetres
+
+"Thickness" - thickness of the artefact in centimetres
+
+"Width" - width of the artefact in centimetres
+
+"ToolType" -- description of the type of tool where appropriate
+
+"SubType" -- description of the sub-type of tool where appropriate
+
+"BifaceComp" -- description of the biface composition where appropriate
+
+"ProjNotes" -- notes on projectile points where appropriate
